@@ -47,42 +47,30 @@ $EndComp
 Wire Wire Line
 	3675 6975 3925 6975
 Connection ~ 3925 6975
-Text GLabel 3000 4100 2    60   Input ~ 0
-ROW3
-Text GLabel 3000 4200 2    60   Input ~ 0
+Text GLabel 3000 6100 2    60   Input ~ 0
 ROW4
-Text GLabel 3000 5800 2    60   Input ~ 0
-COL12
-Text GLabel 3000 5700 2    60   Input ~ 0
+Text GLabel 3000 4900 2    60   Input ~ 0
 COL13
-Text GLabel 3000 6700 2    60   Input ~ 0
+Text GLabel 3000 5700 2    60   Input ~ 0
 COL5
-Text GLabel 3000 6500 2    60   Input ~ 0
+Text GLabel 3000 5600 2    60   Input ~ 0
 COL3
-Text GLabel 3000 6400 2    60   Input ~ 0
+Text GLabel 3000 5400 2    60   Input ~ 0
 COL2
-Text GLabel 3000 6300 2    60   Input ~ 0
+Text GLabel 3000 5200 2    60   Input ~ 0
 COL1
 Text GLabel 3000 5300 2    60   Input ~ 0
 COL0
-Text GLabel 3000 4800 2    60   Input ~ 0
+Text GLabel 3000 6400 2    60   Input ~ 0
 COL8
-Text GLabel 3000 4900 2    60   Input ~ 0
-COL7
-Text GLabel 3000 6800 2    60   Input ~ 0
-COL6
-Text GLabel 3000 6600 2    60   Input ~ 0
-COL4
-Text GLabel 3000 4500 2    60   Input ~ 0
-COL9
-Text GLabel 3000 4400 2    60   Input ~ 0
-COL10
-Text GLabel 3000 4300 2    60   Input ~ 0
-COL11
 Text GLabel 3000 5500 2    60   Input ~ 0
-ROW0
-Text GLabel 3000 5600 2    60   Input ~ 0
-ROW1
+COL4
+Text GLabel 3000 6500 2    60   Input ~ 0
+COL9
+Text GLabel 3000 6600 2    60   Input ~ 0
+COL10
+Text GLabel 3000 6700 2    60   Input ~ 0
+COL11
 Wire Wire Line
 	3925 6975 4300 6975
 Wire Wire Line
@@ -431,8 +419,6 @@ Wire Wire Line
 	900  3900 1125 3900
 Wire Wire Line
 	1650 3525 1650 3575
-Text GLabel 3000 5400 2    60   Input ~ 0
-ROW2
 $Comp
 L Type-C:HRO-TYPE-C-31-M-12 USB1
 U 1 1 60F08C28
@@ -686,4 +672,22 @@ F 3 "" H 3075 2075 50  0001 C CNN
 	1    3075 2075
 	1    0    0    -1  
 $EndComp
+Text GLabel 1700 4900 1    50   Input ~ 0
+USB+
+Text GLabel 1700 5000 3    50   Input ~ 0
+USB-
+Text GLabel 3000 6800 2    60   Input ~ 0
+COL12
+Text GLabel 3000 5800 2    60   Input ~ 0
+ROW3
+Text GLabel 3000 4400 2    60   Input ~ 0
+ROW1
+Text GLabel 3000 4300 2    60   Input ~ 0
+ROW2
+Text GLabel 3000 4500 2    60   Input ~ 0
+ROW0
+Text GLabel 3000 6300 2    60   Input ~ 0
+COL7
+Text GLabel 3000 4800 2    60   Input ~ 0
+COL6
 $EndSCHEMATC

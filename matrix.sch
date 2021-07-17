@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K_ESC1
 U 1 1 5D45F55D
-P 3000 2125
-F 0 "K_ESC1" H 3033 2348 60  0000 C CNN
-F 1 "MX-NoLED" H 3033 2274 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap" H 2375 2100 60  0001 C CNN
-F 3 "" H 2375 2100 60  0001 C CNN
-	1    3000 2125
+P 2925 2050
+F 0 "K_ESC1" H 2958 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 2958 2199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 2300 2025 60  0001 C CNN
+F 3 "" H 2300 2025 60  0001 C CNN
+	1    2925 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -36,19 +36,6 @@ F 3 "~" V 2875 2375 50  0001 C CNN
 	1    2875 2375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2875 2275 2950 2275
-$Comp
-L MX_Alps_Hybrid:MX-NoLED K_#1
-U 1 1 5D45F56A
-P 3475 2125
-F 0 "K_#1" H 3508 2348 60  0000 C CNN
-F 1 "MX-NoLED" H 3508 2274 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap" H 2850 2100 60  0001 C CNN
-F 3 "" H 2850 2100 60  0001 C CNN
-	1    3475 2125
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small D7
 U 1 1 5D45F570
@@ -60,8 +47,6 @@ F 3 "~" V 3350 2375 50  0001 C CNN
 	1    3350 2375
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3350 2275 3425 2275
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K_#2
 U 1 1 5D45F577
@@ -820,17 +805,6 @@ $EndComp
 Wire Wire Line
 	5250 3525 5325 3525
 $Comp
-L MX_Alps_Hybrid:MX-NoLED K_H1
-U 1 1 5D47FF41
-P 5850 3375
-F 0 "K_H1" H 5883 3598 60  0000 C CNN
-F 1 "MX-NoLED" H 5883 3524 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap" H 5225 3350 60  0001 C CNN
-F 3 "" H 5225 3350 60  0001 C CNN
-	1    5850 3375
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D35
 U 1 1 5D47FF47
 P 5725 3625
@@ -841,8 +815,6 @@ F 3 "~" V 5725 3625 50  0001 C CNN
 	1    5725 3625
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5725 3525 5800 3525
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K_J1
 U 1 1 5D47FF4E
@@ -1603,14 +1575,9 @@ Wire Wire Line
 Connection ~ 6475 3950
 Wire Wire Line
 	6475 3950 6475 4575
-Wire Wire Line
-	6000 3950 6000 3325
 Connection ~ 6000 2700
 Wire Wire Line
 	6000 2700 6000 2075
-Connection ~ 6000 3325
-Wire Wire Line
-	6000 3325 6000 2700
 Wire Wire Line
 	5525 2075 5525 2700
 Connection ~ 5525 2700
@@ -1646,16 +1613,12 @@ Wire Wire Line
 Connection ~ 4100 3950
 Wire Wire Line
 	4100 3950 4100 3325
-Wire Wire Line
-	3625 2075 3625 2700
 Connection ~ 3625 2700
 Wire Wire Line
 	3625 2700 3625 3325
 Wire Wire Line
 	3150 4575 3150 3950
 Connection ~ 3150 2700
-Wire Wire Line
-	3150 2700 3150 2075
 Connection ~ 3150 3950
 Connection ~ 2875 2475
 Wire Wire Line
@@ -1750,8 +1713,6 @@ Wire Wire Line
 	4575 1450 4575 2075
 Wire Wire Line
 	4100 2075 4100 1450
-Wire Wire Line
-	3150 2075 3150 1450
 Connection ~ 3625 3325
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K_LGUI1
@@ -1813,7 +1774,6 @@ F 3 "" H 8075 3350 60  0001 C CNN
 	1    8700 3375
 	1    0    0    -1  
 $EndComp
-Connection ~ 3150 2075
 Connection ~ 4100 2075
 Connection ~ 4575 2075
 Connection ~ 5050 2075
@@ -1825,9 +1785,6 @@ Connection ~ 7425 2075
 Connection ~ 7900 2075
 Connection ~ 8375 2075
 Connection ~ 8850 2075
-Wire Wire Line
-	3625 2075 3625 1450
-Connection ~ 3625 2075
 $Comp
 L MX_Alps_Hybrid:MX-NoLED K_SRSFT1
 U 1 1 5FB7E4D3
@@ -1953,4 +1910,59 @@ Connection ~ 7625 4975
 Wire Wire Line
 	7625 4975 8100 4975
 Connection ~ 7900 3950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_#1
+U 1 1 5D45F56A
+P 3400 2050
+F 0 "K_#1" H 3433 2273 60  0000 C CNN
+F 1 "MX-NoLED" H 3433 2199 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 2775 2025 60  0001 C CNN
+F 3 "" H 2775 2025 60  0001 C CNN
+	1    3400 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2200 3625 2200
+Wire Wire Line
+	3150 1450 3150 2200
+Wire Wire Line
+	3625 1450 3625 2200
+Connection ~ 3625 2200
+Wire Wire Line
+	3625 2200 3625 2700
+Wire Wire Line
+	2875 2200 3150 2200
+Connection ~ 3150 2200
+Wire Wire Line
+	3150 2200 3150 2700
+Wire Wire Line
+	3075 2000 3075 2275
+Wire Wire Line
+	2875 2275 3075 2275
+Wire Wire Line
+	3550 2000 3550 2275
+Wire Wire Line
+	3350 2275 3550 2275
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_H1
+U 1 1 5D47FF41
+P 5775 3300
+F 0 "K_H1" H 5808 3523 60  0000 C CNN
+F 1 "MX-NoLED" H 5808 3449 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5150 3275 60  0001 C CNN
+F 3 "" H 5150 3275 60  0001 C CNN
+	1    5775 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5925 3250 5925 3525
+Wire Wire Line
+	5725 3525 5925 3525
+Wire Wire Line
+	6000 2700 6000 3450
+Wire Wire Line
+	5725 3450 6000 3450
+Connection ~ 6000 3450
+Wire Wire Line
+	6000 3450 6000 3950
 $EndSCHEMATC
