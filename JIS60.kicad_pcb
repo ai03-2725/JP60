@@ -1068,6 +1068,11 @@
       (net 99 Earth))
     (pad 13 thru_hole oval (at 4.32 2.6) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask)
       (net 99 Earth))
+    (model "${KIPRJMOD}/Type-C.pretty/HRO  TYPE-C-31-M-12.step"
+      (offset (xyz -4.47 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 90 180 180))
+    )
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer B.Cu) (tedit 5B301BBD) (tstamp 60F2BBD0)
@@ -1208,6 +1213,11 @@
     (pad 1 smd roundrect (at -1.4 0 270) (size 1.25 1.75) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.2)
       (net 2 +5V))
     (model ${KISYS3DMOD}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Diode_SMD.3dshapes/D_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
