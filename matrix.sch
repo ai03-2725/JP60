@@ -1965,4 +1965,27 @@ Wire Wire Line
 Connection ~ 6000 3450
 Wire Wire Line
 	6000 3450 6000 3950
+$Comp
+L MX_Alps_Hybrid:MX-NoLED K_SPC2
+U 1 1 60F7C6E2
+P 5950 4625
+F 0 "K_SPC2" H 5983 4848 60  0000 C CNN
+F 1 "MX-NoLED" H 5983 4774 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5325 4600 60  0001 C CNN
+F 3 "" H 5325 4600 60  0001 C CNN
+	1    5950 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4775 6100 4775
+Wire Wire Line
+	6100 4775 6100 4575
+Connection ~ 6200 4775
+Wire Wire Line
+	6475 4575 6475 4725
+Wire Wire Line
+	6475 4725 5900 4725
+Wire Wire Line
+	5900 4725 5900 4775
+Connection ~ 6475 4575
 $EndSCHEMATC
